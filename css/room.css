@@ -1,0 +1,10 @@
+#chat_room {
+    border: solid 2px brown;
+}
+
+.check {
+    display: flex;
+
+    justify-content: center;
+    align-items:center;
+}

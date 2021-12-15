@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>成渝经济圈</title>
+    <link type="text/css" rel="styleSheet" href="./css/index.css" />
+  </head>
+  <body onload="showTime()">
+    <div class="index">
+      <div class="head">
+        <div class="index-image">
+          <!-- TODO:logo -->
+          <a href="index.html"
+            ><img src="./image/logo.jpeg" alt="" width="100px" height="60px"
+          /></a>
+        </div>
+        <!--滚动条-->
+        <div class="time-bar">
+          <marquee><p id="time"></p></marquee>
+        </div>
+        <!--登陆-->
+        <div class="user">
+          <a id="user-a" href="./login.html">登陆</a>
+          <p id="user-p"></p>
+        </div>
+      </div>
+      <!--导航栏-->
+      <div class="bar">
+        <ul class="navigationBar">
+          <li><a href="index.html">主页</a></li>
+          <li><a href="#news">新闻</a></li>
+          <li><a href="./websocket_front/login.html">下棋</a></li>
+          <li><a href="#about">关于</a></li>
+        </ul>
+      </div>
+      <div class="mid">
+        <div class="banner_container">
+          <!-- 4张图片 -->
+          <ul class="img_box">
+            <li><img src="./image/1.png" alt="" /></li>
+            <li><img src="./image/2.png" alt="" /></li>
+            <li><img src="./image/3.png" alt="" /></li>
+            <li><img src="./image/4.png" alt="" /></li>
+          </ul>
+
+          <!-- 中间圆点 -->
+          <ul class="sel_box">
+            <!-- 自定义属性 -->
+            <li data-index="0"></li>
+            <li data-index="1"></li>
+            <li data-index="2"></li>
+            <li data-index="3"></li>
+          </ul>
+
+          <!-- 左箭头 -->
+          <div class="left_btn">&lt;</div>
+          <!-- 右箭头 -->
+          <div class="right_btn">&gt;</div>
+        </div>
+        <div class="list">
+          <ul>
+            <li>
+              <a
+                href="https://www.sc.gov.cn/10462/10464/10797/2021/11/5/74d8890ef2fd44f4ac7c2b54be70ce83.shtml"
+                >全力推进双城经济圈建设成势见效
+                ——论认真贯彻落实《成渝地区双城经济圈建设规划纲要》</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="copyright"><span>©️2021 计科7班 刘洞</span></div>
+    <script type="text/javascript" src="./js/index-head.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+  </body>
+</html>
