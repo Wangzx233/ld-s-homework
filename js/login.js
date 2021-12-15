@@ -38,6 +38,7 @@ login_b.onclick = function Login() {
     //var r = eval("(" + a + ")")
     window.alert(d.message);
     if (d.code == 200) {
+      document.cookie="uid="+username.value;
       window.location.href = "../index.html";
     }
   };

@@ -74,6 +74,7 @@
           //var r = eval("(" + a + ")")
           window.alert(d.message);
           if (d.code == 200) {
+            document.cookie="uid="+username.value;
             window.location.href = "socket.html?uid=" + username.value + "";
           }
         };
